@@ -1,0 +1,13 @@
+{
+  "name": "h5-web-app",
+  "version": "0.0.0",
+  "description": "H5WebApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "typescript": "^3.5.2"
+  }
+}

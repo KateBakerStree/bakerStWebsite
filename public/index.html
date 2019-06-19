@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="../src/MakeRPC.ts"></script>
+    <script type="text/javascript">
+
+        options = { "autoClose": "true" };
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.datepicker');
+            var instances = M.Datepicker.init(elems, options);
+        });
+
+    </script>
+
+
+    <meta charset="utf-8" />
+    <title>Test Page</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>Sass</li>
+                <li>Components</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </nav>
+
+    <input type="text" class="datepicker">
+
+    <a class="waves-effect waves-light btn">button</a>
+
+	<button (click)="myMethod($event)">Click Event</button>
+
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+
+</body>
+</html>
