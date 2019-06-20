@@ -2,9 +2,12 @@
   "name": "h5-web-app",
   "version": "0.0.0",
   "description": "H5WebApp",
-  "main": "server.js",
   "author": {
     "name": ""
+  },
+  "scripts": {
+    "parcel-js-dev": "parcel public/index.html",
+    "parcel-js-build": "parcel build public/index.html"
   },
   "devDependencies": {
     "@types/node": "^8.0.14",
