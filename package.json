@@ -7,7 +7,8 @@
   },
   "scripts": {
     "parcel-js-dev": "parcel public/index.html",
-    "parcel-js-build": "parcel build public/index.html"
+    "parcel-js-build": "parcel build public/index.html",
+    "compile-ts": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^8.0.14",
